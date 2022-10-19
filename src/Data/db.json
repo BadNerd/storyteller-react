@@ -1,0 +1,19 @@
+{
+    "story" : [
+        {
+            "id" : 1,
+            "image" : "./images/img-1.webp",
+            "text" : "Death was accompanied by the patter of nurses’ rubber-soled shoes marching briskly along linoleum floors. The smell of antiseptic solution. "
+        },
+        {
+            "id" : 2,
+            "image" : "./images/img-2.webp",
+            "text" : "My body revolted against the crisp order in violent expulsions of browns, greens, and yellows against the bleached hospital whites. Veins stood out on my small, pale neck and spittle flew from my mouth as I screamed"
+        },
+        {
+            "id" : 3,
+            "image" : "./images/img-3.webp",
+            "text" : "The cool bed sheets, tucked with neat and stern hospital corners, were twisted into angry, damp knots against my writhing body. I am ordinarily a neat and demure person, so you can imagine my cringing in horror at this loud, violent, and messy departure."
+        }
+    ]
+}

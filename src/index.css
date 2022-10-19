@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+:root {
+  --primary-color : #020202;
+  --secondary-color : #222222;
+  --background-color : radial-gradient(rgb(32, 7, 7) 5%,rgb(0, 0, 0));
+  --text-color : rgba(83, 0, 0, 0.9);
+  --text-color : rgba(83, 0, 0, 0.9);
+}
+/* HTML 5 Style Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ---------- Reset End ---------- */
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--background-color);
+  display: grid;
+  place-items: center;
+}
+.StoryTeller {
+  width: 90vw;
+  height: 58vh;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--primary-color);
+  border-radius: 12px;
+  
+}
+.Show {
+  height: 100%;
+  width: auto;
+  border-radius: 12px;
+  position: relative;
+}
+.TextBox {
+  height: 55%;
+  width: auto;
+  background-image: radial-gradient(rgb(15, 15, 15) 35%,rgb(8, 8, 8));
+  border-radius: 12px;
+  padding: 3%;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 40px 3px rgba(5,5,5,1);
+}
+
+.Show,.TextBox {
+  border:  5px solid var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: initial;
+}
+a:hover {
+  background-color: initial;
+  color: initial;
+}
+.img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* z-index: 0; */
+}
+.container {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-size: 1.05rem;
+  color: var(--text-color);
+  font-family: 'Special Elite', cursive;
+}
